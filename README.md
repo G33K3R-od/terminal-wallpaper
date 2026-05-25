@@ -4,6 +4,9 @@ Wallpaper Engine web wallpaper — terminal-style dashboard with clocks, weather
 
 **Works out of the box** after install (Workshop or local). **Optional** Windows companion adds live CPU / RAM / GPU / disk stats.
 
+- **Steam Workshop:** [Terminal Dashboard](https://steamcommunity.com/workshop/filedetails/?id=3732474243) (`3732474243`)
+- **GitHub:** [G33K3R-od/terminal-wallpaper](https://github.com/G33K3R-od/terminal-wallpaper)
+
 ![Preview](preview.gif)
 
 > If `preview.gif` is missing, open the project in Wallpaper Engine editor and create a snapshot — it will be saved to this folder.
@@ -31,7 +34,7 @@ Wallpaper Engine web wallpaper — terminal-style dashboard with clocks, weather
    ```
    .../steamapps/common/wallpaper_engine/projects/myprojects/terminal-wallpaper/
    ```
-   Or subscribe on **Steam Workshop** (search *Terminal Dashboard*).
+   Or subscribe on **[Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=3732474243)**.
 
 2. Apply the wallpaper in Wallpaper Engine.
 
@@ -93,7 +96,9 @@ Defaults for local preview: [`config.js`](config.js). In WE, `project.json` prop
 
 ## Steam Workshop
 
-See [`WORKSHOP.txt`](WORKSHOP.txt) for description text and upload steps.
+**Published:** https://steamcommunity.com/workshop/filedetails/?id=3732474243
+
+See [`WORKSHOP.txt`](WORKSHOP.txt) for description text and how to publish updates.
 
 Before publishing, delete (or do not commit):
 

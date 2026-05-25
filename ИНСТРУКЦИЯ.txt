@@ -1,7 +1,11 @@
 TERMINAL DASHBOARD — обои для Wallpaper Engine
 ==============================================
 
-Полная документация на GitHub: README.md (EN/RU overview)
+Мастерская Steam:
+  https://steamcommunity.com/workshop/filedetails/?id=3732474243
+
+GitHub / README.md (EN overview):
+  https://github.com/G33K3R-od/terminal-wallpaper
 
 ДВА РЕЖИМА
 ----------
