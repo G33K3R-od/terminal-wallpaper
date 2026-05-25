@@ -1,0 +1,512 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Terminal dashboard — clocks, weather, timers, audio & media. Works without extra tools. Optional Windows PC stats (CPU/RAM/GPU)",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"audiogain" : 
+			{
+				"fraction" : true,
+				"index" : 1,
+				"max" : 5,
+				"min" : 1,
+				"order" : 101,
+				"text" : "Audio bar gain",
+				"type" : "slider",
+				"value" : 2.8
+			},
+			"barwidth" : 
+			{
+				"fraction" : false,
+				"index" : 0,
+				"max" : 24,
+				"min" : 8,
+				"order" : 100,
+				"text" : "Bar width",
+				"type" : "slider",
+				"value" : 16
+			},
+			"clock1label" : 
+			{
+				"index" : 8,
+				"order" : 108,
+				"text" : "Clock 1 — label",
+				"type" : "textinput",
+				"value" : "SP"
+			},
+			"clock1show" : 
+			{
+				"index" : 7,
+				"order" : 107,
+				"text" : "Clock 1 — show",
+				"type" : "bool",
+				"value" : true
+			},
+			"clock1tz" : 
+			{
+				"index" : 9,
+				"options" : 
+				[
+					{
+						"label" : "UTC",
+						"value" : "UTC"
+					},
+					{
+						"label" : "London",
+						"value" : "Europe/London"
+					},
+					{
+						"label" : "Paris / Berlin",
+						"value" : "Europe/Paris"
+					},
+					{
+						"label" : "Moscow",
+						"value" : "Europe/Moscow"
+					},
+					{
+						"label" : "Dubai",
+						"value" : "Asia/Dubai"
+					},
+					{
+						"label" : "India",
+						"value" : "Asia/Kolkata"
+					},
+					{
+						"label" : "Bangkok",
+						"value" : "Asia/Bangkok"
+					},
+					{
+						"label" : "Tokyo",
+						"value" : "Asia/Tokyo"
+					},
+					{
+						"label" : "Shanghai",
+						"value" : "Asia/Shanghai"
+					},
+					{
+						"label" : "Sydney",
+						"value" : "Australia/Sydney"
+					},
+					{
+						"label" : "New York",
+						"value" : "America/New_York"
+					},
+					{
+						"label" : "Chicago",
+						"value" : "America/Chicago"
+					},
+					{
+						"label" : "Los Angeles",
+						"value" : "America/Los_Angeles"
+					},
+					{
+						"label" : "Sao Paulo",
+						"value" : "America/Sao_Paulo"
+					}
+				],
+				"order" : 109,
+				"text" : "Clock 1 — timezone",
+				"type" : "combo",
+				"value" : "America/Sao_Paulo"
+			},
+			"clock2label" : 
+			{
+				"index" : 11,
+				"order" : 111,
+				"text" : "Clock 2 — label",
+				"type" : "textinput",
+				"value" : "TOKYO"
+			},
+			"clock2show" : 
+			{
+				"index" : 10,
+				"order" : 110,
+				"text" : "Clock 2 — show",
+				"type" : "bool",
+				"value" : true
+			},
+			"clock2tz" : 
+			{
+				"index" : 12,
+				"options" : 
+				[
+					{
+						"label" : "UTC",
+						"value" : "UTC"
+					},
+					{
+						"label" : "London",
+						"value" : "Europe/London"
+					},
+					{
+						"label" : "Paris / Berlin",
+						"value" : "Europe/Paris"
+					},
+					{
+						"label" : "Moscow",
+						"value" : "Europe/Moscow"
+					},
+					{
+						"label" : "Dubai",
+						"value" : "Asia/Dubai"
+					},
+					{
+						"label" : "India",
+						"value" : "Asia/Kolkata"
+					},
+					{
+						"label" : "Bangkok",
+						"value" : "Asia/Bangkok"
+					},
+					{
+						"label" : "Tokyo",
+						"value" : "Asia/Tokyo"
+					},
+					{
+						"label" : "Shanghai",
+						"value" : "Asia/Shanghai"
+					},
+					{
+						"label" : "Sydney",
+						"value" : "Australia/Sydney"
+					},
+					{
+						"label" : "New York",
+						"value" : "America/New_York"
+					},
+					{
+						"label" : "Chicago",
+						"value" : "America/Chicago"
+					},
+					{
+						"label" : "Los Angeles",
+						"value" : "America/Los_Angeles"
+					},
+					{
+						"label" : "Sao Paulo",
+						"value" : "America/Sao_Paulo"
+					}
+				],
+				"order" : 112,
+				"text" : "Clock 2 — timezone",
+				"type" : "combo",
+				"value" : "Asia/Tokyo"
+			},
+			"clock3label" : 
+			{
+				"index" : 14,
+				"order" : 114,
+				"text" : "Clock 3 — label",
+				"type" : "textinput",
+				"value" : "PARIS"
+			},
+			"clock3show" : 
+			{
+				"index" : 13,
+				"order" : 113,
+				"text" : "Clock 3 — show",
+				"type" : "bool",
+				"value" : true
+			},
+			"clock3tz" : 
+			{
+				"index" : 15,
+				"options" : 
+				[
+					{
+						"label" : "UTC",
+						"value" : "UTC"
+					},
+					{
+						"label" : "London",
+						"value" : "Europe/London"
+					},
+					{
+						"label" : "Paris / Berlin",
+						"value" : "Europe/Paris"
+					},
+					{
+						"label" : "Moscow",
+						"value" : "Europe/Moscow"
+					},
+					{
+						"label" : "Dubai",
+						"value" : "Asia/Dubai"
+					},
+					{
+						"label" : "India",
+						"value" : "Asia/Kolkata"
+					},
+					{
+						"label" : "Bangkok",
+						"value" : "Asia/Bangkok"
+					},
+					{
+						"label" : "Tokyo",
+						"value" : "Asia/Tokyo"
+					},
+					{
+						"label" : "Shanghai",
+						"value" : "Asia/Shanghai"
+					},
+					{
+						"label" : "Sydney",
+						"value" : "Australia/Sydney"
+					},
+					{
+						"label" : "New York",
+						"value" : "America/New_York"
+					},
+					{
+						"label" : "Chicago",
+						"value" : "America/Chicago"
+					},
+					{
+						"label" : "Los Angeles",
+						"value" : "America/Los_Angeles"
+					},
+					{
+						"label" : "Sao Paulo",
+						"value" : "America/Sao_Paulo"
+					}
+				],
+				"order" : 115,
+				"text" : "Clock 3 — timezone",
+				"type" : "combo",
+				"value" : "Europe/Paris"
+			},
+			"localclockshow" : 
+			{
+				"index" : 3,
+				"order" : 103,
+				"text" : "Show local timezone clock",
+				"type" : "bool",
+				"value" : true
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "UI scheme color",
+				"type" : "color",
+				"value" : "0 0.47 0.84"
+			},
+			"sectionlang" : 
+			{
+				"index" : 2,
+				"options" : 
+				[
+					{
+						"label" : "Russian",
+						"value" : "ru"
+					},
+					{
+						"label" : "English",
+						"value" : "en"
+					}
+				],
+				"order" : 102,
+				"text" : "Section titles language",
+				"type" : "combo",
+				"value" : "ru"
+			},
+			"timer1date" : 
+			{
+				"index" : 18,
+				"order" : 118,
+				"text" : "Timer 1 — date (YYYY-MM-DD)",
+				"type" : "textinput",
+				"value" : "2026-12-31"
+			},
+			"timer1name" : 
+			{
+				"index" : 17,
+				"order" : 117,
+				"text" : "Timer 1 — name (any language)",
+				"type" : "textinput",
+				"value" : "Birthday"
+			},
+			"timer1show" : 
+			{
+				"index" : 16,
+				"order" : 116,
+				"text" : "Timer 1 — show",
+				"type" : "bool",
+				"value" : true
+			},
+			"timer2date" : 
+			{
+				"index" : 21,
+				"order" : 121,
+				"text" : "Timer 2 — date (YYYY-MM-DD)",
+				"type" : "textinput",
+				"value" : "2027-01-01"
+			},
+			"timer2name" : 
+			{
+				"index" : 20,
+				"order" : 120,
+				"text" : "Timer 2 — name (any language)",
+				"type" : "textinput",
+				"value" : "NEW YEAR"
+			},
+			"timer2show" : 
+			{
+				"index" : 19,
+				"order" : 119,
+				"text" : "Timer 2 — show",
+				"type" : "bool",
+				"value" : true
+			},
+			"timer3date" : 
+			{
+				"index" : 24,
+				"order" : 124,
+				"text" : "Timer 3 — date (YYYY-MM-DD)",
+				"type" : "textinput",
+				"value" : "2026-06-01"
+			},
+			"timer3name" : 
+			{
+				"index" : 23,
+				"order" : 123,
+				"text" : "Timer 3 — name (any language)",
+				"type" : "textinput",
+				"value" : "Custom"
+			},
+			"timer3show" : 
+			{
+				"index" : 22,
+				"order" : 122,
+				"text" : "Timer 3 — show",
+				"type" : "bool",
+				"value" : true
+			},
+			"weathercity" : 
+			{
+				"index" : 5,
+				"options" : 
+				[
+					{
+						"label" : "Как Clock 1",
+						"value" : "clock1"
+					},
+					{
+						"label" : "Свои координаты",
+						"value" : "custom"
+					},
+					{
+						"label" : "Комсомольск-на-Амуре",
+						"value" : "komsomolsk"
+					},
+					{
+						"label" : "Сан-Паулу",
+						"value" : "sao_paulo"
+					},
+					{
+						"label" : "Москва",
+						"value" : "moscow"
+					},
+					{
+						"label" : "Санкт-Петербург",
+						"value" : "spb"
+					},
+					{
+						"label" : "Киев",
+						"value" : "kyiv"
+					},
+					{
+						"label" : "Лондон",
+						"value" : "london"
+					},
+					{
+						"label" : "Париж",
+						"value" : "paris"
+					},
+					{
+						"label" : "Берлин",
+						"value" : "berlin"
+					},
+					{
+						"label" : "Дубай",
+						"value" : "dubai"
+					},
+					{
+						"label" : "Дели",
+						"value" : "delhi"
+					},
+					{
+						"label" : "Бангкок",
+						"value" : "bangkok"
+					},
+					{
+						"label" : "Токио",
+						"value" : "tokyo"
+					},
+					{
+						"label" : "Шанхай",
+						"value" : "shanghai"
+					},
+					{
+						"label" : "Сидней",
+						"value" : "sydney"
+					},
+					{
+						"label" : "Нью-Йорк",
+						"value" : "new_york"
+					},
+					{
+						"label" : "Чикаго",
+						"value" : "chicago"
+					},
+					{
+						"label" : "Лос-Анджелес",
+						"value" : "los_angeles"
+					},
+					{
+						"label" : "Владивосток",
+						"value" : "vladivostok"
+					},
+					{
+						"label" : "Екатеринбург",
+						"value" : "yekaterinburg"
+					}
+				],
+				"order" : 105,
+				"text" : "Weather — city",
+				"type" : "combo",
+				"value" : "komsomolsk"
+			},
+			"weathercoords" : 
+			{
+				"index" : 6,
+				"order" : 106,
+				"text" : "Weather — custom lat, lon",
+				"type" : "textinput",
+				"value" : "50.55, 137.01"
+			},
+			"weathershow" : 
+			{
+				"index" : 4,
+				"order" : 104,
+				"text" : "Show weather (needs internet)",
+				"type" : "bool",
+				"value" : true
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "preview.gif",
+	"ratingsex" : "none",
+	"ratingviolence" : "none",
+	"snapshotformat" : 1,
+	"snapshotoverlay" : "",
+	"supportsaudioprocessing" : true,
+	"tags" : [ "Technology" ],
+	"title" : "Terminal Dashboard",
+	"type" : "web",
+	"version" : 2,
+	"workshopid" : "3732474243",
+	"workshopurl" : "steam://url/CommunityFilePage/3732474243"
+}

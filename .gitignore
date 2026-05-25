@@ -1,0 +1,21 @@
+# Generated / personal (stats collector)
+stats.json
+.stats-autostart-installed
+
+# OS & editors
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
+.cursor/
+
+# Logs
+*.log
+
+# Optional: uncomment if you generate preview locally and don't want it in git
+# preview.gif
+# preview.jpg
+# preview.png

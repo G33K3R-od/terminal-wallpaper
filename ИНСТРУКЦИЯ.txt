@@ -1,0 +1,55 @@
+TERMINAL DASHBOARD — обои для Wallpaper Engine
+==============================================
+
+Полная документация на GitHub: README.md (EN/RU overview)
+
+ДВА РЕЖИМА
+----------
+
+1) МАСТЕРСКАЯ / без скрипта
+   Часы, погода, таймеры, аудио, медиа — всё сразу.
+   Слева декоративный блок (без «offline» и жёлтой рамки).
+
+2) ПОЛНЫЙ / Windows + setup.bat
+   То же + блок PC: CPU, RAM, GPU, диски, Wi‑Fi.
+   Один раз: setup.bat → автозапуск при входе в Windows.
+
+БЫСТРЫЙ СТАРТ
+-------------
+
+Мастерская: применить обои — готово.
+
+Полный режим (локально):
+  1) Папка в ...\myprojects\terminal-wallpaper\
+  2) Один раз setup.bat
+  3) Применить обои в WE
+
+НАСТРОЙКИ WE (шестерёнка)
+-------------------------
+
+  Clocks, Timers, Weather (город / свои координаты)
+  Show PC stats block — выкл., если без setup.bat
+  Display host / user — подпись слева без скрипта (для мастерской)
+  Audio gain, Language, цвет
+
+ПОГОДА
+
+  «Комсомольск-на-Амуре» в списке.
+  «Свои координаты» + поле lat, lon (50.55, 137.01).
+
+АВТОЗАПУСК stats (полный режим)
+
+  setup.bat — установит задачу TerminalDashboardStats
+  uninstall-autostart.ps1 — удалить
+  start-stats-hidden.vbs — фон без консоли
+
+ПРОВЕРКА
+
+  Без скрипта: слева «автономный», нет жёлтой рамки.
+  Со скриптом: справа OS/CPU/RAM, слева host/user live.
+
+ФАЙЛЫ
+
+  setup.bat, install-autostart.ps1 — только полный режим (Win)
+  WORKSHOP.txt — текст описания для Steam
+  index.html, script.js, config.js, project.json — обои

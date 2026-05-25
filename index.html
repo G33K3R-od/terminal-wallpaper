@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, height=device-height">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="viewport" class="viewport">
+    <div id="dashboard" class="dashboard">
+      <article class="panel">
+        <header class="panel-header">
+          <div id="logo" class="logo-wrap">
+            <pre class="logo-art" aria-hidden="true">▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+█  ▄▀▄  ▄▀▄  ▄▀▄  █
+█  ▀▄▀  ▀▄▀  ▀▄▀  █
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀</pre>
+            <div id="logo-meta" class="logo-meta"></div>
+            <div id="logo-bars" class="logo-bars" aria-hidden="true"></div>
+            <div class="logo-frame">
+              <div class="logo-title">TERMINAL</div>
+              <div class="logo-sub">dashboard</div>
+              <div class="logo-prompt">
+                <span class="logo-gt">&gt;</span><span class="logo-cmd">sys monitor</span><span class="logo-cursor">_</span>
+              </div>
+            </div>
+          </div>
+          <div id="sysinfo" class="sysinfo"></div>
+        </header>
+
+        <section class="panel-section">
+          <h2 class="section-title" data-i18n="clocks">Clocks</h2>
+          <div id="clocks" class="section-body clocks"></div>
+        </section>
+
+        <section class="panel-section">
+          <h2 class="section-title" data-i18n="timers">Timers</h2>
+          <div id="timers" class="section-body timers"></div>
+        </section>
+
+        <section class="panel-section panel-split">
+          <div class="split-col">
+            <h2 class="section-title" data-i18n="audio">Audio</h2>
+            <div id="audio" class="section-body audio"></div>
+          </div>
+          <div class="split-col">
+            <h2 class="section-title" data-i18n="network">Network</h2>
+            <div id="netdate" class="section-body netdate"></div>
+          </div>
+        </section>
+
+        <section class="panel-section panel-section-last">
+          <h2 class="section-title" data-i18n="media">Media</h2>
+          <div id="player" class="section-body player"></div>
+        </section>
+      </article>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
