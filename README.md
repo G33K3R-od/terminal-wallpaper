@@ -9,8 +9,6 @@ Wallpaper Engine web wallpaper — terminal-style dashboard with clocks, weather
 
 ![Preview](preview.gif)
 
-> If `preview.gif` is missing, open the project in Wallpaper Engine editor and create a snapshot — it will be saved to this folder.
-
 ---
 
 ## Features
