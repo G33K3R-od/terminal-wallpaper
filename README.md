@@ -98,7 +98,15 @@ Defaults for local preview: [`config.js`](config.js). In WE, `project.json` prop
 
 **Published:** https://steamcommunity.com/workshop/filedetails/?id=3732474243
 
-See [`WORKSHOP.txt`](WORKSHOP.txt) for description text and how to publish updates.
+Full Workshop description (RU + EN, BBCode for Steam, GitHub & full-edition notes): [`WORKSHOP.txt`](WORKSHOP.txt).
+
+### Description preview (RU)
+
+**Terminal Dashboard** — терминальные обои: панель с тремя мировыми часами, локальным временем, погодой (Open-Meteo, список городов + свои координаты), тремя таймерами обратного отсчёта, аудио-полосами (bass/mid/treble/volume) и блоком медиа (Spotify / браузер через интеграцию WE). Тёмно-синий UI, подписи RU/EN, настройка через шестерёнку WE.
+
+**Базовая версия** — сразу после подписки, без установки скриптов. **Полная версия (Windows)** — опционально: один запуск `setup.bat` из [репозитория на GitHub](https://github.com/G33K3R-od/terminal-wallpaper) добавляет живые CPU / RAM / GPU (NVIDIA) / диски / Wi‑Fi; в настройках включить *Show PC stats block*. Без скрипта — автономный режим без пустого блока PC.
+
+Исходники, инструкция, обновления: **https://github.com/G33K3R-od/terminal-wallpaper**
 
 Before publishing, delete (or do not commit):
 

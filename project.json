@@ -1,6 +1,6 @@
 {
 	"contentrating" : "Everyone",
-	"description" : "Terminal dashboard — clocks, weather, timers, audio & media. Works without extra tools. Optional Windows PC stats (CPU/RAM/GPU)",
+	"description" : "Terminal dashboard: clocks, weather, timers, audio & media. Works out of the box. Optional full PC stats (CPU/RAM/GPU) via setup.bat — https://github.com/G33K3R-od/terminal-wallpaper",
 	"file" : "index.html",
 	"general" : 
 	{
